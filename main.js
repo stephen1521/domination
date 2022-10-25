@@ -19,10 +19,9 @@ textSize('heading', '40');
 
 // Testing 1
 let myImage = document.createElement('img');
+//show the img tag was succesfully added
 myImage.alt = 'Testing'
 addTagToUl(myImage);
-//show the img tag was succesfully added
-console.log(document.querySelector('ul').querySelector('img'));
 
 // Testing 3
 let myImage2 = document.querySelector('#image-1');
